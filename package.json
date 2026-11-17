@@ -1,0 +1,55 @@
+{
+  "name": "@mambalabsdev/mcp-india-mca-company-data",
+  "version": "1.0.0",
+  "description": "MCP server for India MCA Company Data: Indian company and LLP master data and directors by CIN, LLPIN, or name.",
+  "type": "module",
+  "bin": {
+    "mcp-india-mca-company-data": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "india",
+    "mca",
+    "cin",
+    "llpin",
+    "company-data",
+    "directors",
+    "kyc",
+    "lead-generation",
+    "apify",
+    "mcp",
+    "apify",
+    "clay"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/india-mca-company-data",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-india-mca-company-data"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-india-mca-company-data"
+}

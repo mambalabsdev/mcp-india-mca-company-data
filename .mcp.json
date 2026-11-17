@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-india-mca-company-data": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-india-mca-company-data"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}
