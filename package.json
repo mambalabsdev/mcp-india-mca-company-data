@@ -1,6 +1,6 @@
 {
   "name": "@mambalabsdev/mcp-india-mca-company-data",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MCP server for India MCA Company Data: Indian company and LLP master data and directors by CIN, LLPIN, or name.",
   "type": "module",
   "bin": {
