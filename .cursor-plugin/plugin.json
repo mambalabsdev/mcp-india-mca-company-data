@@ -1,7 +1,7 @@
 {
   "name": "mcp-india-mca-company-data",
   "displayName": "India MCA Company Data",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "MCP server for India MCA Company Data: Indian company and LLP master data and directors by CIN, LLPIN, or name.",
   "author": {
     "name": "Mamba Labs",
